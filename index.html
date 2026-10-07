@@ -1,652 +1,954 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="BlackRidge Solutions — Building Technology. Creating Possibilities.">
-  <meta name="author" content="BlackRidge Solutions">
-  <title>BlackRidge Solutions | Building Technology. Creating Possibilities.</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <link
-    rel="icon"
-    type="image/png"
-    href="blackridge-icon.png"
->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#07111f">
+
+    <title>BlackRidge Solutions — Digital Solutions, Built to Deliver</title>
+
+    <meta
+        name="description"
+        content="BlackRidge Solutions is a technology company in development, building reliable digital solutions across software, security, infrastructure, web, mobile, and digital transformation."
+    >
+
+    <link rel="icon" href="assets/blackridge-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="navbar">
 
-<a class="brand" href="#home">
-    <img
-        src="blackridge-logo.png"
-        alt="BlackRidge Solutions"
-        class="brand-logo"
-    >
-</a>
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-  <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <header class="site-header" id="top">
+        <div class="container nav-container">
 
-  <nav class="nav-menu" id="navMenu">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#projects">Projects</a>
-  <a href="#team">Team</a>
-  <a href="#contact">Contact</a>
-</nav>
-</header>
+            <a href="#top" class="brand" aria-label="BlackRidge Solutions home">
+                <img
+                    src="assets/blackridge-icon.png"
+                    alt=""
+                    class="brand-icon"
+                >
 
-<main>
-  <section class="hero" id="home">
-    <div class="hero-copy">
-      <div class="eyebrow"><span></span> Technology • Innovation • Impact</div>
-      <h1>Building Technology.<br><em>Creating Possibilities.</em></h1>
-      <p>We design and build reliable digital solutions that help individuals, businesses and organizations turn ideas into meaningful technology.</p>
-      <div class="hero-actions">
-        <a class="btn primary" href="#services">Explore Our Services</a>
-        <a class="btn outline" href="#contact">Let's Work Together</a>
-      </div>
-      <div class="stats">
-        <div><b>01</b><span>Innovation</span></div>
-        <div><b>02</b><span>Technology</span></div>
-        <div><b>03</b><span>Impact</span></div>
-      </div>
-    </div>
-
-    <div class="hero-art" aria-hidden="true">
-      <div class="glow"></div>
-      <div class="orbit one"></div>
-      <div class="orbit two"></div>
-      <div class="hero-logo">
-    <img
-        src="blackridge-icon.png"
-        alt="BlackRidge Solutions logo"
-    >
-</div>
-      <div class="float-card c1"><b>01</b><strong>Software</strong><small>Development</small></div>
-      <div class="float-card c2"><b>02</b><strong>AI & Automation</strong><small>Intelligent Systems</small></div>
-      <div class="float-card c3"><b>03</b><strong>Cybersecurity</strong><small>Digital Protection</small></div>
-    </div>
-  </section>
-
-  <section class="section about" id="about">
-    <div class="section-intro">
-      <span class="label">ABOUT US</span>
-      <h2>Technology built around <em>real-world problems.</em></h2>
-      <p>BlackRidge Solutions is a technology company focused on creating reliable, accessible and innovative digital solutions.</p>
-    </div>
-    <div class="about-grid">
-      <article class="panel">
-        <span class="panel-icon">◎</span>
-        <h3>Our Mission</h3>
-        <p>To build reliable, accessible and innovative technology solutions that solve real-world problems and create opportunities.</p>
-      </article>
-      <article class="panel">
-        <span class="panel-icon green">◇</span>
-        <h3>Our Vision</h3>
-        <p>To become a globally recognized African technology company known for transforming ideas into impactful digital solutions.</p>
-      </article>
-      <article class="values">
-        <span class="label">WHY BlackRidge</span>
-        <h3>Our Core Values</h3>
-        <ul>
-          <li><b>Innovation</b><span>We explore better ways to solve problems.</span></li>
-          <li><b>Integrity</b><span>We build with honesty and responsibility.</span></li>
-          <li><b>Excellence</b><span>We strive for high-quality products.</span></li>
-          <li><b>Impact</b><span>We focus on meaningful value.</span></li>
-        </ul>
-      </article>
-    </div>
-  </section>
-
-  <section class="section services" id="services">
-    <div class="section-heading">
-      <div><span class="label">OUR SERVICES</span><h2>Technology solutions for a <em>smarter future.</em></h2></div>
-      <p>From an idea to a complete digital product, we provide the technology needed to make it happen.</p>
-    </div>
-    <div class="service-grid">
-      <article class="service"><span>01</span><div class="service-icon">&lt;/&gt;</div><h3>Web Development</h3><p>Modern, responsive websites and powerful web applications.</p></article>
-      <article class="service"><span>02</span><div class="service-icon">▣</div><h3>Mobile Applications</h3><p>Modern mobile experiences for Android, iOS and cross-platform environments.</p></article>
-      <article class="service"><span>03</span><div class="service-icon">⌘</div><h3>Software Development</h3><p>Custom software systems designed around your requirements.</p></article>
-      <article class="service"><span>04</span><div class="service-icon">◈</div><h3>AI & Automation</h3><p>Intelligent systems and automation that make processes smarter.</p></article>
-      <article class="service"><span>05</span><div class="service-icon">◇</div><h3>Cybersecurity</h3><p>Security-focused solutions for digital systems and information.</p></article>
-      <article class="service"><span>06</span><div class="service-icon">☁</div><h3>Cloud Solutions</h3><p>Scalable cloud and digital infrastructure for modern organizations.</p></article>
-    </div>
-  </section>
-
-  <section class="section projects" id="projects">
-
-  <div class="section-heading">
-
-    <div>
-      <span class="label">OUR PORTFOLIO</span>
-
-      <h2>
-        Work we're
-        <em>building.</em>
-      </h2>
-    </div>
-
-    <p>
-      Explore selected digital products, websites and technology
-      solutions developed by BlackRidge Solutions.
-    </p>
-
-  </div>
-
-
-	<!-- PROJECT 01 -->
-	
-		<!-- FEATURED PROJECT -->
-<article class="portfolio-card portfolio-featured">
-
-    <div class="portfolio-featured-image">
-
-        <img
-            src="malsa-website-portfolio.png"
-            alt="MALSA Official Website developed by BlackRidge Solutions"
-        >
-
-        <div class="featured-badge">
-            FEATURED PROJECT
-        </div>
-
-    </div>
-
-
-    <div class="portfolio-featured-content">
-
-        <div class="portfolio-featured-heading">
-
-            <div>
-                <span class="portfolio-status">
-                    COMPLETED
+                <span class="brand-name">
+                    Black<span>Ridge</span>
                 </span>
+            </a>
 
-                <h3>MALSA Official Website</h3>
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#process">Process</a>
+                <a href="#team">Team</a>
+
+                <a href="#contact" class="nav-cta">
+                    Contact
+                </a>
+
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero section-grid" id="home">
+
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="status-badge">
+                        <span class="status-dot"></span>
+                        Company in development
+                    </div>
+
+                    <p class="eyebrow">
+                        Digital solutions. Engineered properly.
+                    </p>
+
+                    <h1>
+                        Technology built to
+                        <span>deliver.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        BlackRidge Solutions is being built to deliver reliable
+                        digital solutions across software, security,
+                        infrastructure, web, mobile, and digital transformation.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#services" class="button button-primary">
+                            Explore capabilities
+                            <span aria-hidden="true">→</span>
+                        </a>
+
+                        <a href="#portfolio" class="button button-secondary">
+                            View our work
+                        </a>
+
+                    </div>
+
+                    <div class="hero-meta">
+
+                        <div>
+                            <strong>01</strong>
+                            <span>Built for reliability</span>
+                        </div>
+
+                        <div>
+                            <strong>02</strong>
+                            <span>Security conscious</span>
+                        </div>
+
+                        <div>
+                            <strong>03</strong>
+                            <span>Designed to scale</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual" aria-hidden="true">
+
+                    <div class="visual-frame">
+
+                        <div class="visual-topbar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="visual-content">
+
+                            <div class="visual-logo">
+                                <img
+                                    src="assets/blackridge-logo.png"
+                                    alt=""
+                                >
+                            </div>
+
+                            <div class="visual-lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="visual-grid">
+
+                                <div class="visual-card large">
+                                    <span class="card-label">SYSTEM</span>
+                                    <strong>BUILD</strong>
+                                    <small>01 / 04</small>
+                                </div>
+
+                                <div class="visual-card">
+                                    <span class="card-label">STATUS</span>
+                                    <strong>READY</strong>
+                                    <small>ACTIVE</small>
+                                </div>
+
+                                <div class="visual-card">
+                                    <span class="card-label">MODE</span>
+                                    <strong>SECURE</strong>
+                                    <small>CONTROLLED</small>
+                                </div>
+
+                            </div>
+
+                            <div class="visual-footer">
+                                <span>BLACKRIDGE / SYSTEMS</span>
+                                <span>BR-S01</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <span class="portfolio-category">
-                WEB DEVELOPMENT
-            </span>
+        </section>
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">01 / About</p>
+
+                    <h2>
+                        A technology company
+                        <span>being built properly.</span>
+                    </h2>
+
+                    <p>
+                        BlackRidge is currently being developed from the ground
+                        up with a long-term objective: become a trusted technology
+                        company capable of delivering serious digital solutions
+                        across Nigeria, Africa, and eventually the wider world.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <article class="about-card about-card-main">
+
+                        <div class="card-number">01</div>
+
+                        <h3>Reliability first.</h3>
+
+                        <p>
+                            We are building around one principle:
+                            technology should solve problems, not create new ones.
+                            Every system, interface, and solution should be
+                            engineered with clarity, reliability, and long-term
+                            usefulness in mind.
+                        </p>
+
+                    </article>
+
+
+                    <article class="about-card">
+
+                        <div class="card-number">02</div>
+
+                        <h3>Built to scale.</h3>
+
+                        <p>
+                            BlackRidge starts small by design. The objective is
+                            not to look large before becoming capable. The
+                            objective is to build capability until scale becomes
+                            natural.
+                        </p>
+
+                    </article>
+
+
+                    <article class="about-card">
+
+                        <div class="card-number">03</div>
+
+                        <h3>Security conscious.</h3>
+
+                        <p>
+                            Security is considered from the beginning—not added
+                            after a system becomes vulnerable.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+
+        <section class="services section section-dark" id="services">
+
+            <div class="container">
+
+                <div class="section-heading section-heading-light">
+
+                    <p class="eyebrow">02 / Capabilities</p>
+
+                    <h2>
+                        The systems we are
+                        <span>building toward.</span>
+                    </h2>
+
+                    <p>
+                        These are the areas BlackRidge is developing its
+                        capabilities around. As the company grows, each
+                        capability will become deeper, more specialized,
+                        and more operational.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+
+                        <span class="service-number">01</span>
+
+                        <div class="service-icon">01</div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            High-quality websites and digital experiences
+                            designed around performance, clarity, and business
+                            objectives.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">02</span>
+
+                        <div class="service-icon">02</div>
+
+                        <h3>Software Systems</h3>
+
+                        <p>
+                            Custom software designed to organize operations,
+                            automate workflows, and solve specific business
+                            problems.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">03</span>
+
+                        <div class="service-icon">03</div>
+
+                        <h3>Mobile Applications</h3>
+
+                        <p>
+                            Mobile products designed to make digital services
+                            accessible, useful, and scalable.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">04</span>
+
+                        <div class="service-icon">04</div>
+
+                        <h3>Cybersecurity</h3>
+
+                        <p>
+                            Security-focused systems and practices designed
+                            around protection, resilience, and responsible
+                            digital operations.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">05</span>
+
+                        <div class="service-icon">05</div>
+
+                        <h3>Infrastructure</h3>
+
+                        <p>
+                            Digital infrastructure designed to support stable,
+                            scalable, and maintainable technology systems.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">06</span>
+
+                        <div class="service-icon">06</div>
+
+                        <h3>IT Consulting</h3>
+
+                        <p>
+                            Practical technology guidance for organizations
+                            deciding what to build, improve, automate, or
+                            secure.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">07</span>
+
+                        <div class="service-icon">07</div>
+
+                        <h3>Digital Transformation</h3>
+
+                        <p>
+                            Helping organizations move from fragmented manual
+                            processes toward structured digital systems.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <span class="service-number">08</span>
+
+                        <div class="service-icon">08</div>
+
+                        <h3>AI & Intelligent Systems</h3>
+
+                        <p>
+                            Exploring practical applications of artificial
+                            intelligence, automation, and intelligent software.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PORTFOLIO
+        ========================== -->
+
+        <section class="portfolio section" id="portfolio">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">03 / Selected work</p>
+
+                    <h2>
+                        Proof comes from
+                        <span>what we build.</span>
+                    </h2>
+
+                    <p>
+                        BlackRidge is still in development, so the portfolio
+                        remains intentionally small. We would rather show a
+                        small number of real projects than manufacture a large
+                        portfolio.
+                    </p>
+
+                </div>
+
+
+                <article class="portfolio-feature">
+
+                    <div class="portfolio-image">
+
+                        <img
+                            src="assets/malsa-website-portfolio.png"
+                            alt="MALSA website project preview"
+                            loading="lazy"
+                        >
+
+                        <div class="portfolio-image-overlay"></div>
+
+                    </div>
+
+
+                    <div class="portfolio-content">
+
+                        <div class="portfolio-status">
+                            Completed project
+                        </div>
+
+                        <p class="eyebrow">
+                            BR / 001
+                        </p>
+
+                        <h3>MALSA</h3>
+
+                        <p>
+                            A completed digital project and the first public
+                            proof point in the BlackRidge portfolio.
+                        </p>
+
+                        <div class="portfolio-tags">
+
+                            <span>Web</span>
+                            <span>Design</span>
+                            <span>Development</span>
+
+                        </div>
+
+                        <div class="portfolio-actions">
+
+                            <a
+                                href="#"
+                                class="text-link disabled-link"
+                                aria-disabled="true"
+                                data-coming-soon
+                            >
+                                Project link coming soon
+                                <span>→</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <div class="portfolio-empty">
+
+                    <span class="empty-number">02</span>
+
+                    <div>
+                        <p class="eyebrow">More projects</p>
+
+                        <h3>
+                            Currently being built.
+                        </h3>
+
+                        <p>
+                            Additional projects will be added as they reach
+                            a level worth showing publicly.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROCESS
+        ========================== -->
+
+        <section class="process section section-light" id="process">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">04 / Process</p>
+
+                    <h2>
+                        Build with
+                        <span>discipline.</span>
+                    </h2>
+
+                    <p>
+                        The goal is not to produce technology for the sake of
+                        technology. Every project should move through a clear
+                        process from understanding the problem to delivering
+                        something useful.
+                    </p>
+
+                </div>
+
+
+                <div class="process-list">
+
+                    <article class="process-item">
+
+                        <div class="process-index">01</div>
+
+                        <div class="process-body">
+
+                            <h3>Understand</h3>
+
+                            <p>
+                                Define the problem, users, objectives,
+                                constraints, and expected outcome.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="process-item">
+
+                        <div class="process-index">02</div>
+
+                        <div class="process-body">
+
+                            <h3>Design</h3>
+
+                            <p>
+                                Structure the solution before implementation,
+                                reducing unnecessary complexity and wasted
+                                development effort.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="process-item">
+
+                        <div class="process-index">03</div>
+
+                        <div class="process-body">
+
+                            <h3>Build</h3>
+
+                            <p>
+                                Develop the system with maintainability,
+                                performance, usability, and security in mind.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="process-item">
+
+                        <div class="process-index">04</div>
+
+                        <div class="process-body">
+
+                            <h3>Test</h3>
+
+                            <p>
+                                Inspect, test, identify weaknesses, and refine
+                                before delivery.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="process-item">
+
+                        <div class="process-index">05</div>
+
+                        <div class="process-body">
+
+                            <h3>Deliver</h3>
+
+                            <p>
+                                Deliver a solution that is usable, understandable,
+                                and ready for its intended environment.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TEAM
+        ========================== -->
+
+        <section class="team section" id="team">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">05 / Team</p>
+
+                    <h2>
+                        Small team.
+                        <span>Long horizon.</span>
+                    </h2>
+
+                    <p>
+                        BlackRidge is currently being built by a small founding
+                        team. The company will grow its capabilities and team
+                        deliberately as the work expands.
+                    </p>
+
+                </div>
+
+
+                <div class="team-grid">
+
+                    <article class="team-card">
+
+                        <div class="team-card-top">
+
+                            <span class="team-index">
+                                FOUNDER / 01
+                            </span>
+
+                            <div class="team-avatar">
+                                MI
+                            </div>
+
+                        </div>
+
+                        <div class="team-card-body">
+
+                            <h3>Muhammad Ibrahim</h3>
+
+                            <p class="team-role">
+                                Founder
+                            </p>
+
+                            <p>
+                                Founder of BlackRidge Solutions and the original
+                                force behind the company's vision.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="team-card">
+
+                        <div class="team-card-top">
+
+                            <span class="team-index">
+                                CO-FOUNDER / 02
+                            </span>
+
+                            <div class="team-avatar">
+                                AS
+                            </div>
+
+                        </div>
+
+                        <div class="team-card-body">
+
+                            <h3>Ahmad Suleiman</h3>
+
+                            <p class="team-role">
+                                Co-Founder · Strategy & Product
+                            </p>
+
+                            <p>
+                                Supporting BlackRidge through strategic
+                                direction, product development, testing,
+                                and technology-focused thinking.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="cta section-dark">
+
+            <div class="container cta-container">
+
+                <div>
+
+                    <p class="eyebrow">
+                        BLACKRIDGE / IN DEVELOPMENT
+                    </p>
+
+                    <h2>
+                        We're building the
+                        <span>standard.</span>
+                    </h2>
+
+                    <p>
+                        BlackRidge is not accepting public projects yet.
+                        We are using this stage to build capability,
+                        products, systems, and a foundation strong enough
+                        to support the company we intend to become.
+                    </p>
+
+                </div>
+
+                <a href="#top" class="button button-primary">
+                    Back to top
+                    <span>↑</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div class="contact-content">
+
+                        <p class="eyebrow">
+                            Contact / Coming soon
+                        </p>
+
+                        <h2>
+                            BlackRidge is
+                            <span>not open yet.</span>
+                        </h2>
+
+                        <p>
+                            Our public contact channels are being prepared.
+                            Once BlackRidge officially launches, this section
+                            will contain the company's verified contact,
+                            social, and business information.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-status">
+
+                        <span class="status-dot"></span>
+
+                        <div>
+                            <strong>Private development phase</strong>
+                            <small>
+                                Public launch information will be added here.
+                            </small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#top" class="brand">
+
+                    <img
+                        src="assets/blackridge-icon.png"
+                        alt=""
+                        class="brand-icon"
+                    >
+
+                    <span class="brand-name">
+                        Black<span>Ridge</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Digital solutions built to deliver.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#process">Process</a>
+                <a href="#team">Team</a>
+
+            </div>
+
+
+            <div class="footer-meta">
+
+                <span>
+                    © <span id="current-year"></span> BlackRidge Solutions
+                </span>
+
+                <span>
+                    Currently in development
+                </span>
+
+            </div>
 
         </div>
-      <div class="portfolio-project-details">
 
-    <div class="project-detail">
-        <span>CLIENT</span>
-        <strong>Malumfashi Students Association (MALSA)</strong>
+    </footer>
+
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+        Project information will be available soon.
     </div>
 
-    <div class="project-detail">
-        <span>KEY FEATURES</span>
-        <strong>
-            Announcements · Events · Executives · Contact
-        </strong>
-    </div>
 
-</div>
+    <script src="script.js"></script>
 
-        <p>
-            A modern responsive website developed for
-            Malumfashi Students Association (MALSA), designed
-            to connect students, publish announcements,
-            showcase events and provide important association
-            information through a professional digital platform.
-        </p>
-
-
-        <div class="portfolio-tech">
-
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Responsive Design</span>
-
-        </div>
-
-
-        <a
-    href="https://classy-brioche-8cdd8c.netlify.app/"
-    class="portfolio-link"
-    target="_blank"
-    rel="noopener noreferrer"
->
-    View Live Project →
-</a>
-
-    </div>
-
-</article>
-
-    <!-- PROJECT 02 -->
-	
-	<article class="portfolio-card">
-	
-	  <div class="portfolio-image">
-	
-	    <div class="portfolio-placeholder">
-	      <span>#</span>
-	    </div>
-	
-	    <span class="portfolio-category">
-	      WEB DESIGN
-	    </span>
-	
-	  </div>
-	
-	
-	  <div class="portfolio-content">
-	
-	    <span class="portfolio-status">
-	      IN DEVELOPMENT
-	    </span>
-	
-	    <h3>Business Management Platform</h3>
-	
-	    <p>
-	      A modern web platform designed to help businesses
-	      manage customers, operations and digital workflows.
-	    </p>
-	
-	
-	    <div class="portfolio-tech">
-	
-	      <span>HTML</span>
-	      <span>CSS</span>
-	      <span>JavaScript</span>
-	
-	    </div>
-	
-	
-	    <a href="#" class="portfolio-link">
-	      View Project →
-	    </a>
-	
-	  </div>
-	
-	</article>
-	
-	
-	
-	<!-- PROJECT 03 -->
-	
-	<article class="portfolio-card">
-	
-	  <div class="portfolio-image">
-	
-	    <div class="portfolio-placeholder">
-	      <span>⌘</span>
-	    </div>
-	
-	    <span class="portfolio-category">
-	      SOFTWARE
-	    </span>
-	
-	  </div>
-	
-	
-	  <div class="portfolio-content">
-	
-	    <span class="portfolio-status">
-	      IN DEVELOPMENT
-	    </span>
-	
-	    <h3>Student Management System</h3>
-	
-	    <p>
-	      A digital system designed to simplify student records,
-	      academic processes and institutional management.
-	    </p>
-	
-	
-	    <div class="portfolio-tech">
-	
-	      <span>Python</span>
-	      <span>Database</span>
-	      <span>Web</span>
-	
-	    </div>
-	
-	
-	    <a href="#" class="portfolio-link">
-	      View Project →
-	    </a>
-	
-	  </div>
-	
-	</article>
-	
-	
-	
-	<!-- PROJECT 04 -->
-	
-	<article class="portfolio-card">
-	
-	  <div class="portfolio-image">
-	
-	    <div class="portfolio-placeholder">
-	      <span>◈</span>
-	    </div>
-	
-	    <span class="portfolio-category">
-	      DIGITAL SOLUTIONS
-	    </span>
-	
-	  </div>
-	
-	
-	  <div class="portfolio-content">
-	
-	    <span class="portfolio-status">
-	      COMING SOON
-	    </span>
-	
-	    <h3>Intelligent Digital Solutions</h3>
-	
-	    <p>
-	      Exploring practical applications of automation and
-	      artificial intelligence to solve real-world problems.
-	    </p>
-	
-	
-	    <div class="portfolio-tech">
-	
-	      <span>AI</span>
-	      <span>Automation</span>
-	      <span>Cloud</span>
-	
-	    </div>
-	
-	
-	    <a href="#" class="portfolio-link">
-	      View Project →
-	    </a>
-	
-	  </div>
-	
-	</article>
-	
-	
-	
-	<!-- PROJECT 05 -->
-	
-	<article class="portfolio-card">
-	
-	  <div class="portfolio-image">
-	
-	    <div class="portfolio-placeholder">
-	      <span>◇</span>
-	    </div>
-	
-	    <span class="portfolio-category">
-	      CYBERSECURITY
-	    </span>
-	
-	  </div>
-	
-	
-	  <div class="portfolio-content">
-	
-	    <span class="portfolio-status">
-	      COMING SOON
-	    </span>
-	
-	    <h3>Security & Infrastructure</h3>
-	
-	    <p>
-	      Technology solutions focused on improving application
-	      security, infrastructure and digital protection.
-	    </p>
-	
-	
-	    <div class="portfolio-tech">
-	
-	      <span>Linux</span>
-	      <span>Security</span>
-	      <span>Networking</span>
-	
-	    </div>
-	
-	
-	    <a href="#" class="portfolio-link">
-	      View Project →
-	    </a>
-	
-	  </div>
-	
-	</article>
-
-</section>
-
-  <section class="section team" id="team">
-
-  <div class="section-heading">
-
-    <div>
-      <span class="label">OUR TEAM</span>
-
-      <h2>
-        People behind the
-        <em>technology.</em>
-      </h2>
-    </div>
-
-    <p>
-      A growing team focused on technology, innovation and building
-      solutions that create real-world impact.
-    </p>
-
-  </div>
-
-
-  <div class="team-grid">
-
-
-    <article class="team-card">
-
-      <div class="team-avatar">
-        M
-      </div>
-
-      <span>FOUNDER & CEO</span>
-
-      <h3>BlackRidge Solutions</h3>
-
-      <p>
-        Leadership & Strategy
-      </p>
-
-    </article>
-
-
-    <article class="team-card">
-
-      <div class="team-avatar">
-        &lt;/&gt;
-      </div>
-
-      <span>SOFTWARE DEVELOPMENT</span>
-
-      <h3>Technology Team</h3>
-
-      <p>
-        Software & Web Development
-      </p>
-
-    </article>
-
-
-    <article class="team-card">
-
-      <div class="team-avatar">
-        ◈
-      </div>
-
-      <span>INNOVATION</span>
-
-      <h3>Product Team</h3>
-
-      <p>
-        Product & Digital Solutions
-      </p>
-
-    </article>
-
-
-    <article class="team-card">
-
-      <div class="team-avatar">
-        ◇
-      </div>
-
-      <span>SECURITY</span>
-
-      <h3>Security Team</h3>
-
-      <p>
-        Cybersecurity & Infrastructure
-      </p>
-
-    </article>
-
-
-  </div>
-
-  </section>
-  
-  <section class="section process" id="solutions">
-    <div class="process-grid">
-      <div>
-        <span class="label">OUR APPROACH</span>
-        <h2>From <em>idea</em> to impact.</h2>
-        <p>We understand the problem first, then plan, design, build, test and launch a solution that can grow with you.</p>
-        <a class="btn primary" href="#contact">Start a Project</a>
-      </div>
-      <div class="steps">
-        <div><b>01</b><section><h3>Discover</h3><p>Understand the problem and define the goal.</p></section></div>
-        <div><b>02</b><section><h3>Design</h3><p>Create the architecture and user experience.</p></section></div>
-        <div><b>03</b><section><h3>Build</h3><p>Develop, test and refine the solution.</p></section></div>
-        <div><b>04</b><section><h3>Launch</h3><p>Deploy the product and continue improving it.</p></section></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta" id="contact">
-
-  <div class="contact-header">
-    <span class="label">GET IN TOUCH</span>
-
-    <h2>
-      Let's build something
-      <em>great together.</em>
-    </h2>
-
-    <p>
-      Have a project, business idea or technology challenge?
-      Tell us about it and let's explore what we can build together.
-    </p>
-  </div>
-
-
-  <div class="contact-grid">
-
-
-    <a class="contact-card" href="mailto:info@BlackRidgeSolutions.com">
-
-      <span class="contact-icon">✉</span>
-
-      <div>
-        <small>EMAIL</small>
-        <strong>info@BlackRidgeSolutions.com</strong>
-      </div>
-
-    </a>
-
-
-    <a class="contact-card" href="tel:+2340000000000">
-
-      <span class="contact-icon">☎</span>
-
-      <div>
-        <small>PHONE</small>
-        <strong>+2348128831109</strong>
-        <strong>+2348132758088</strong>
-      </div>
-
-    </a>
-
-
-    <a class="contact-card" href="#">
-
-      <span class="contact-icon">◎</span>
-
-      <div>
-        <small>LOCATION</small>
-        <strong>Nigeria</strong>
-      </div>
-
-    </a>
-
-
-    <a class="contact-card" href="#">
-
-      <span class="contact-icon">↗</span>
-
-      <div>
-        <small>SOCIAL MEDIA</small>
-        <strong>Connect with us</strong>
-      </div>
-
-    </a>
-
-
-  </div>
-
-
-  <div class="contact-action">
-
-    <a
-      class="btn white"
-      href="mailto:info@BlackRidgeSolutions.com"
-    >
-      Start a Conversation
-    </a>
-
-  </div>
-
-</section>
-</main>
-
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-    <img
-        src="blackridge-logo.png"
-        alt="BlackRidge Solutions"
-        class="footer-logo"
-    >
-</div>
-  <p class="footer-tagline">
-    Building Technology. Creating Possibilities.
-</p>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 BlackRidge Solutions. All rights reserved.</span>
-    <div>
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
-  <a href="#projects">Projects</a>
-  <a href="#team">Team</a>
-  <a href="#contact">Contact</a>
-</div>
-  </div>
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
